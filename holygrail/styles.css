@@ -1,0 +1,40 @@
+body{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header,footer{
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+.container{
+    display: flex;
+    flex: 1;
+}
+.main-content{
+    flex:1;
+    padding: 15px;
+}
+.left-side{
+    background-color: lightpink;
+    padding: 15px;
+}
+.right-side{
+    background-color: lightblue;
+    padding: 15px;
+}
+
+@media (width<=480px) {
+    .container{
+        flex-direction: column;
+    }
+    .left-side,.right-side{
+        width: 100%;
+    }
+}
+

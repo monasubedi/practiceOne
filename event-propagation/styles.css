@@ -1,0 +1,29 @@
+/* body * {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid red;
+} */
+
+* {
+  margin: 0;
+  padding: 0;
+  background-color: rgba(221, 221, 221, 0.5);
+}
+
+.modalContainer {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(221, 221, 221, 0.5);
+  width: 100vw;
+  height: 100vh;
+}
+
+.modal {
+  width: 200px;
+  height: 200px;
+  box-shadow: 0 0 5px gray;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+}

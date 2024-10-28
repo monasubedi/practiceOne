@@ -1,0 +1,21 @@
+.sectionsContainer{
+    border: 1px solid #333; 
+}
+
+.section-item{
+    border-bottom: 1px solid #333;
+    cursor: pointer;
+}
+.section-header{
+    background-color: antiquewhite;
+    padding: 10px;
+}
+.section-header .active{
+    background-color: aqua;
+}
+
+.section-content{
+    display: none;
+    padding: 10px;
+}
+
